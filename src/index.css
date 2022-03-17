@@ -1,0 +1,82 @@
+/* Background pattern from Toptal Subtle Patterns */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+body {
+    background-image: url(./bg.png);
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Taviraj', serif;
+    color: rgb(14, 14, 14);
+    font-weight: bold!important;
+}
+
+h4 {
+    font-weight: bold;  
+}
+
+h1, h2, h3, h4, h5, h6, input, select {
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card img {
+    width: auto!important;
+    border-radius: 50%;
+}
+
+p {
+    margin: 0!important;
+    padding: 0!important;
+    text-align: center;
+}
+
+.starred-in p{
+    font-size: 16px;
+}
+
+.scrolling.starred-in {
+    position: sticky;
+    top: -1px;
+    z-index: 1000;
+    background-image: url(./bg.png);
+    background-repeat: repeat;
+    padding: 1% 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.new-search{
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    z-index: 10000;
+    width: 98%!important;
+}
+
+footer {
+    margin: 0 0 60px 0;
+}
+
+footer p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer span.version {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 10px;
+}
