@@ -16,4 +16,4 @@ The app should then load on http://localhost:3000/
 
 There is some mock json data when testing locally as the API key used for the real call is private.
 
-**View:** [Frontend](https://howoldwas.app "See the front end in action")
+**View:** [Frontend](howoldwas.netlify.app "See the front end in action")
